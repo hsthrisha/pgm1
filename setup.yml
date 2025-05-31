@@ -1,0 +1,7 @@
+ - name: Basic server setup
+   hosts: local
+   become: true
+   tasks:
+     - name: Example task
+       debug:
+         msg: "Hello,this is basic setup"
